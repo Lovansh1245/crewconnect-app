@@ -1,0 +1,7 @@
+/* Base styles are defined in App.css */
+/* This file intentionally left minimal */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

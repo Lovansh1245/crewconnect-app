@@ -4,7 +4,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) web application for managin
 
 ---
 
-## 📋 Project Description
+## Project Description
 
 This application allows teams to manage their student members through a clean, modern interface. Users can:
 - Add new team members with name, role, email, contact, and a profile photo
@@ -13,7 +13,7 @@ This application allows teams to manage their student members through a clean, m
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer      | Technology                        |
 |------------|-----------------------------------|
@@ -25,7 +25,7 @@ This application allows teams to manage their student members through a clean, m
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fsd-assignment/
@@ -57,7 +57,7 @@ fsd-assignment/
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 - [Node.js](https://nodejs.org/) (v16 or above)
@@ -66,7 +66,7 @@ Make sure you have the following installed:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 
@@ -98,7 +98,7 @@ npm install
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### Start MongoDB
 Make sure your local MongoDB instance is running:
@@ -125,7 +125,7 @@ App runs at: **http://localhost:3000**
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 | Method | Endpoint             | Description                  | Body / Params              |
 |--------|----------------------|------------------------------|----------------------------|
@@ -151,7 +151,7 @@ App runs at: **http://localhost:3000**
 
 ---
 
-## 🖼 Image Handling
+## Image Handling
 
 - Images are uploaded via `multipart/form-data` (field name: `image`)
 - Stored in `backend/uploads/` with a timestamp-based filename
@@ -159,7 +159,7 @@ App runs at: **http://localhost:3000**
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Ensure MongoDB is running before starting the backend
 - The `uploads/` folder is excluded from Git (images are not tracked)
